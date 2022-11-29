@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    
     <!--=====================HEADER===========================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -737,34 +738,27 @@
             <h2 class="section__title">Contact me</h2>
             <span class="section__subtitle">Get in touch</span>
             <div class="contact__container container grid">
+
                 <div>
                     <div class="contact__information"><i class="uil uil-phone contact__icon"></i>
-
                         <div>
                             <h3 class="contact__title">Call me</h3>
                             <span class="contact__subtitle">+764483323</span>
                         </div>
                     </div>
                 </div>
+
                 <div>
                     <div class="contact__information"><i class="uil uil-envelope contact__icon"></i>
-
                         <div>
                             <h3 class="contact__title">Email</h3>
                             <span class="contact__subtitle">+jime.nieto@gmail.com</span>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="contact__information"><i class="uil uil-map-marker contact__icon"></i>
 
-                        <div>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Sweden - Stockholm</span>
-                        </div>
-                    </div>
-                </div>
-                <form action="" class="contact__form grid">
+                
+                <form  action="correos.php" method="POST" action="" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
@@ -791,7 +785,7 @@
                         </div>
                     </div>
                 </form>
-            </div>
+            
         </section>
 
     </main>
@@ -811,7 +805,7 @@
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contact me</a>
+                        <a href="#contact" class="footer__link">Contactme</a>
                     </li>
                 </ul>
 
@@ -822,14 +816,15 @@
                             class="uil uil-behance"></i></a>
                     <a href="https://github.com/flowdeveloping" target="_blank" class="footer__social"><i
                             class="uil uil-github"></i></a>
-                    <a href="https://dribbble.com/jidaini211" target="_blank" class="footer__social"><i
-                            class="uil uil-dribbble"></i></a>
+                    <!-- <a href="https://dribbble.com/jidaini211" target="_blank" class="footer__social"><i
+                            class="uil uil-dribbble"></i></a> -->
                     <a href="https://www.linkedin.com/in/jimenadnieto/" target="_blank" class="footer__social"><i
                             class="uil uil-linkedin"></i></a>
                 </div>
 
-                <p class="footer__copy">&#169; Jimena Nieto | Design & Development</p>
+
             </div>
+            <p class="footer__copy">&#169; Jimena Nieto | Design & Development</p>
         </div>
     </footer>
 
@@ -838,11 +833,14 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scroll__icon"></i>
     </a>
+    
 
     <!--=====================SWIPER-JS===========================-->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <!--=====================JS===========================-->
     <script src="./assets/js/main.js"></script>
+
+    
 </body>
 
 </html>
