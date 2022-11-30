@@ -134,7 +134,7 @@ a{
 img{
     max-width: 100%;
     height: auto;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 /*===========REUSABLE CSS CLASSES===========*/
@@ -714,6 +714,7 @@ img{
 
 /*====TESTIMONIAL====*/
 
+
 .testimonial__data,
 .testimonial__header{
     display: flex;
@@ -721,12 +722,12 @@ img{
 
 .testimonial__data{
     justify-content: space-between;
-    margin-bottom: var(--mb-1);
+    margin-bottom: 3rem;
 }
 
 .testimonial__img{
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     margin-right: var(--mb-0-75);
 }
@@ -744,7 +745,7 @@ img{
 .testimonial__description{
     margin-bottom: var(--mb-2-5);
     font-size: var(--small-font-size);
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
 
 .testimonial__icon-star{
@@ -1068,6 +1069,7 @@ img{
     }
     .portfolio__img{
         width: 320px;
+        margin-top: 2rem;
     }
     .portfolio__content{
         align-items: center;
