@@ -293,8 +293,8 @@ img{
 }
 .home__blob{
     width: 200px;
-    fill: var(--firs-color);
-}
+/*     fill: var(--firs-color);
+ */}
 .home__blob-img{
     width: 220px;
 }
